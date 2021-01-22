@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/6a6f102d22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TIC-TAC-TOE!</title>
+</head>
+<body>
+    <header class="top">
+        <h1>TIC-TAC-TOE</h1>
+    </header>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="controls">
+        <div class="winner">
+            <p id="winner-display"></p>
+        </div>
+        <div class="score">
+            <div id="x-s" class="score-display">
+
+            </div>
+            <div id="circle-s" class="score-display">
+                
+            </div>
+        </div>
+        <div class="restart">
+            <button id="restart"><i class="fas fa-undo-alt"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>
